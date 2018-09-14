@@ -23,7 +23,7 @@ const double Lf = 2.67;
 
 // Both the reference cross track and orientation errors are 0.
 // The reference velocity is set to 40 mph.
-double ref_v = 50;
+double ref_v = 80;
 
 // cost weight
 int cte_weight = 1;
@@ -31,8 +31,8 @@ int epsi_weight = 1;
 int v_weight = 1;
 int delta_weight = 1000;
 int a_weight = 20;
-int delta_weight_s = 2000;
-int a_weight_s = 100;
+int delta_weight_s = 20000;
+int a_weight_s = 1000;
 
 // The solver takes all the state variables and actuator
 // variables in a singular vector. Thus, we should to establish
