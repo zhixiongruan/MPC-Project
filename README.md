@@ -24,7 +24,9 @@ Self-Driving Car Engineer Nanodegree Program
 并计算交叉检查和方向误差。参考代码第103-117行。
 
 ### Model Predictive Control with Latency
-在真车中，延迟是不可避免的。首先我在低速（40km/h内），不考虑延迟，是可以得到一个很好的结果的。当速度较快时，我加入了延迟处理，处理代码如下：
+在真车中，延迟是不可避免的。首先我在低速（40km/h内），不考虑延迟，是可以得到一个很好的结果的。当速度较快时，
+我加入了延迟处理，处理代码如下：
+
 ![代码](./videos/latency.jpg)
 
 ### 最后是我获得的结果视频：[MPC.mp4](./videos/MPC_S.mp4)。
